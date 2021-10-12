@@ -1,0 +1,11 @@
+{
+	"name": "Deconstruction",
+	"version": "1.0.0",
+	"title": "Deconstruction",
+	"author": "BlackAsLight",
+	"factorio_version": "1.1",
+	"contact": "Discord: Doctor#4293",
+	"homepage": "https://github.com/BlackAsLight/Deconstruction",
+	"description:": "Hopefully a mod that marks old miners, and the relevant stuff around it, for deconstruction.",
+	"dependencies": []
+}
