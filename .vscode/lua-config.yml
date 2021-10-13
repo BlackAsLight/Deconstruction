@@ -1,0 +1,9 @@
+column_limit: -1
+use_tab: true
+align_args: false
+keep_simple_function_one_line: false
+align_parameter: false
+break_after_operator: false
+double_quote_to_single_quote: true
+spaces_inside_table_braces: true
+spaces_around_equals_in_field: true

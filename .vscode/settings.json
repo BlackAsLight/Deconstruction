@@ -1,5 +1,14 @@
 {
 	"cSpell.words": [
 		"Factorio"
+	],
+	"Lua.diagnostics.globals": [
+		"script",
+		"defines",
+		"game",
+		"global",
+		"settings",
+		"data",
+		"log"
 	]
 }
