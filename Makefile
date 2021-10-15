@@ -1,4 +1,4 @@
-DIRECTORY := $(shell cat info.json | jq '.name')_$(shell cat info.json | jq '.version')
+DIRECTORY := $(shell cat info.json | jq '.title')_$(shell cat info.json | jq '.version')
 NAME := $(DIRECTORY).zip
 
 all:
