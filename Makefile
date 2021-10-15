@@ -1,5 +1,11 @@
-NAME := $(shell cat info.json | jq '.name')_$(shell cat info.json | jq '.version').zip
+DIRECTORY := $(shell cat info.json | jq '.name')_$(shell cat info.json | jq '.version')
+NAME := $(DIRECTORY).zip
 
 all:
 	rm -rf $(NAME)
-	zip -9qr $(NAME) . -i *.lua *.json LICENSE
+	mkdir $(DIRECTORY)
+	cp *.lua $(DIRECTORY)
+	cp *.json $(DIRECTORY)
+	cp LICENSE $(DIRECTORY)
+	zip -9qr $(NAME) ./$(DIRECTORY)
+	rm -rf $(DIRECTORY)
