@@ -1,6 +1,7 @@
 {
 	"cSpell.words": [
-		"Factorio"
+		"Factorio",
+		"makeignore"
 	],
 	"Lua.diagnostics.globals": [
 		"script",
