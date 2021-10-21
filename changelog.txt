@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+  New:
+    - Added a bunch of comments to the code denoting the logic at hand and how it works.
+    - Made it so if other mods add new entities of prototype mining-drill, with a radius larger than 3 will also work properly. (Hopefully)
+  Changed:
+    - Moved some checks happening at the start of the game instead of every time it checks an entity. Because it only had to run once.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.3
   Patch:
     - Fixed Mod Description not showing up in game.
