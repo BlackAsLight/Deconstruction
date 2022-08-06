@@ -1,15 +1,20 @@
 {
 	"cSpell.words": [
+		"factorio",
 		"Factorio",
 		"makeignore"
 	],
 	"Lua.diagnostics.globals": [
-		"script",
-		"defines",
 		"game",
-		"global",
+		"script",
+		"remove",
+		"commands",
 		"settings",
-		"data",
-		"log"
+		"rcon",
+		"rendering",
+		"global",
+		"defines",
+		"log",
+		"data"
 	]
 }

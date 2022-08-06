@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+  Changed:
+    - Changed chest setting to be a boolean so you can only decide between not removing them and removing them if they're empty within 10mins.
+    - Re-wrote everything to be better.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
   New:
     - Added a bunch of comments to the code denoting the logic at hand and how it works.

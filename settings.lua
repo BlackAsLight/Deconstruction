@@ -1,23 +1,16 @@
 data:extend({
 	{
-		type = "string-setting",
-		name = "Remove Chests",
+		type = "bool-setting",
+		name = "blackaslight-chests",
+		localised_name = { "description.Remove-Chests" },
 		setting_type = "runtime-global",
-		default_value = "If Empty",
-		allow_blank = false,
-		auto_trim = true,
-		allowed_values = {
-			"No",
-			"If Empty",
-			"Yes"
-		},
-		order = "deconstruction_a"
+		default_value = false,
 	},
 	{
 		type = "bool-setting",
-		name = "Remove Belts",
+		name = "blackaslight-belts",
+		localised_name = { "description.Remove-Belts" },
 		setting_type = "runtime-global",
 		default_value = false,
-		order = "deconstruction_b"
 	}
 })
