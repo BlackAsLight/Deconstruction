@@ -281,7 +281,7 @@ script.on_nth_tick(10, function()
 		return
 	end
 	global.list[key] = nil
-	if not value.entity.valid then
+	if value.entity == nil or not value.entity.valid then
 		return
 	end
 
